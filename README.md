@@ -1,6 +1,9 @@
 # Sideslip-Angle-Estimation
 My bachelor thesis, which based on ROS/Gazebo as well as Matlab/Simulink.
 
+The video about the Gazebo simulation environment :https://www.youtube.com/watch?v=I3iScs9OWoQ&t=2s
+
+## The simulation steps
 Requirements:
 Ubuntu 18
 Ros Melodic
@@ -62,14 +65,7 @@ source devel/setup.bash
 ```
 
 
-
-
-
-
-
-
-The video about the environment :https://www.youtube.com/watch?v=I3iScs9OWoQ&t=2s
-
+## The images
 The mathmatical model:
 
 ![fig1_single_track_model](https://user-images.githubusercontent.com/54738414/149680697-e1a9ad2b-51f0-41c3-82a3-653d82654721.png)
