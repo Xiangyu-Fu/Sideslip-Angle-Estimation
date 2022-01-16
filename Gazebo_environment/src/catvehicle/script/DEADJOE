@@ -1,0 +1,12 @@
+
+*** These modified files were found in JOE when it aborted on Sun Apr 18 19:35:38 2021
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/home/piwi/catkin_ws/src/catvehicle/script/run.bash
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jpicorc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jpicorc

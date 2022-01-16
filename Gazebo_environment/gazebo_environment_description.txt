@@ -1,0 +1,4 @@
+In the script folder is the core ROS Nodes for this thesis.
+
+In the src folder is the ROS/Gazebo environment including the above Nodes. 
+The simulation_steps.txt file is used to start the simulation environment.
