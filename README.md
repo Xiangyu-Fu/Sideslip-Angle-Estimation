@@ -1,6 +1,73 @@
 # Sideslip-Angle-Estimation
 My bachelor thesis, which based on ROS/Gazebo as well as Matlab/Simulink.
 
+Requirements:
+Ubuntu 18
+Ros Melodic
+Gazebo 9
+opencv library 
+numpy library
+
+refer to: https://github.com/jmscslgroup/catvehicle/
+
+WorkSpace:
+```
+catkin_ws
+```
+
+1. make workspace:
+```
+cd ~
+mkdir -p catkin_ws/src
+cd catkin_ws/src
+catkin_init_workspace
+cd ..
+catkin_make
+```
+
+2. copy core files
+```
+copy carbot and catvehicle packages to catkin_ws/src
+```
+
+3*. two methods are provided to obtain the other dependent packages:
+```
+copy other dependent packages from thsi folder to catkin_ws/src
+```
+or
+```
+clone other dependent packages from Github:
+cd ~/catkin_ws/src
+git clone https://github.com/jmscslgroup/obstaclestopper
+git clone https://github.com/jmscslgroup/control_toolbox
+git clone https://github.com/jmscslgroup/sicktoolbox
+git clone https://github.com/jmscslgroup/sicktoolbox_wrapper
+git clone https://github.com/jmscslgroup/stepvel
+git clone https://github.com/jmscslgroup/cmdvel2gazebo
+git clone https://github.com/jmscslgroup/velodyne
+```
+
+
+4. make workspace
+```
+cd ~/catkin_ws
+catkin_make
+```
+
+5. start simulation
+``` 
+cd catkin_ws
+source devel/setup.bash
+.src/catvehicle/script/run.bash
+```
+
+
+
+
+
+
+
+
 The video about the environment :https://www.youtube.com/watch?v=I3iScs9OWoQ&t=2s
 
 The mathmatical model:
