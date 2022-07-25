@@ -1,3 +1,9 @@
+<p align="center">
+<a href="https://anaconda.org/conda-forge/black/"><img alt="conda-forge" src="https://img.shields.io/conda/dn/conda-forge/black.svg?label=conda-forge"></a>
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+</p>
+
+
 # Sideslip-Angle-Estimation
 My bachelor thesis, which based on ROS/Gazebo as well as Matlab/Simulink.
 
